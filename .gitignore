@@ -1,0 +1,31 @@
+# Logs
+logs
+*.log
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment variables files
+*.env
+*.env.*
+
+# Build output
+bin
+build
+dist
+
+# Miscellaneous
+*.local
+coverage
+.cache
+.tmp
+tmp
+node_modules
