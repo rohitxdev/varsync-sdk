@@ -1,0 +1,16 @@
+{
+	"name": "varsync",
+	"version": "0.0.2",
+	"description": "Varsync client for web and node.",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"type": "module",
+	"scripts": {
+		"build": "rm -rf dist && tsc && esbuild src/index.ts --outdir=dist --format=esm --bundle --minify"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.8.3",
+		"esbuild": "^0.23.0",
+		"typescript": "^5.5.3"
+	}
+}

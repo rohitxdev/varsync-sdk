@@ -1,4 +1,4 @@
 {
     "API_URL":"https://api.varsync.com",
-    "POLL_INTERVAL_IN_MS": 60000
+    "POLL_INTERVAL_IN_MS": 6000
 }
