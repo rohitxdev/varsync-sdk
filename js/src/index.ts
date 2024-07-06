@@ -39,7 +39,6 @@ export class VarsyncClient {
 
 			this.#config = config;
 			this.#pollIntervalInMs = pollIntervalInMs;
-			console.log(this.#config);
 		} finally {
 			setTimeout(() => this.#pollConfig(), this.#pollIntervalInMs);
 		}
